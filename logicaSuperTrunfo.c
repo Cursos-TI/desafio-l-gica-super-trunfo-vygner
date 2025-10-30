@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
+// Tema 3 - Desenvolvendo a Lógica do Jogo
 
 int main() {
     // Declarando as variáveis para a carta 1
@@ -142,7 +142,7 @@ int main() {
         return 1;
     }
 
-    // Menu dinâmico para o segundo atributo
+    // Menu para o segundo atributo
     printf("\nEscolha o segundo atributo para comparação (diferente do primeiro):\n");
     for (int i = 1; i <= 6; i++)
     {
@@ -254,7 +254,7 @@ int main() {
     printf("%s: %.2f\n", nomeCidade1, valorA2_carta1);
     printf("%s: %.2f\n", nomeCidade2, valorA2_carta2);
 
-    // Ajuste de comparação para densidade populacional (menor é melhor)
+    // Ajuste de comparação para densidade populacional 
     float comparacao1 = (atributo1 == 5) ? -valorA1_carta1 : valorA1_carta1;
     float comparacao2 = (atributo1 == 5) ? -valorA1_carta2 : valorA1_carta2;
 
